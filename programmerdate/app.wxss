@@ -1,0 +1,151 @@
+
+
+body {
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 750rpx;
+	margin: 0 auto 0;
+}
+
+
+.date{
+	font-size:40rpx;
+	font-weight: bold;
+	line-height: 80rpx;
+	text-align: center;
+}
+
+.split, .clear {
+	clear: both;
+	height: 1px;
+	overflow-y: hidden;
+}
+
+.good, .bad {
+	clear: both;
+	position: relative;
+}
+
+.bad {
+	/*top: -1px;*/
+}
+
+.good .title, .bad .title {
+	float: left;
+	width: 100px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30pt;
+	position:absolute;
+	top:0;
+	bottom:0;
+}
+
+.good .title>table, .bad .title>table {
+	width:100%;
+	height:100%;
+	border:none;
+}
+
+.good .title {
+	background: #ffee44;
+}
+
+.someday .good .title {
+	background: #aaaaaa;
+}
+
+.bad .title {
+	background: #ff4444;
+	color: #fff;
+}
+
+.someday .bad .title {
+	background: #666666;
+	color: #fff;
+}
+
+.good .content, .bad .content {
+	margin-left: 115px;
+	padding-right: 10px;
+	padding-top: 1px;
+	font-size:15pt;
+}
+
+.someday .good {
+	background: #dddddd;
+}
+
+.someday .bad {
+	background: #aaaaaa;
+}
+
+.good {
+	background: #ffffaa;
+}
+.good .content .name, .bad .content .name {
+  font-size: 40rpx;
+  line-height: 60rpx;
+  color: #333
+}
+.good .content .description, .bad .content .description {
+  font-size: 30rpx;
+  color: #777
+}
+.bad {
+	background: #ffddd3;
+}
+
+.content ul {
+	list-style: none;
+	margin:10px 0 0;
+	padding:0;
+}
+
+.content ul li {
+	line-height:150%;
+	font-size: 15pt;
+	font-weight: bold;
+	color: #444;
+}
+
+.content ul li div.description {
+	font-size: 11pt;
+	font-weight: normal;
+	color: #777;
+	line-height: 110%;
+	margin-bottom: 10px;
+}
+
+.line-tip {
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.direction_value {
+	color:#4a4;
+	font-weight: bold;
+}
+
+.someday .direction_value {
+	color:#888;
+}
+
+.goddes_value {
+	color: #f87;
+}
+
+.someday .goddes_value {
+	color: #777;
+}
+
+.comment {
+	margin-top: 20rpx;
+	font-size: 32rpx;
+	margin-left:12rpx;
+}

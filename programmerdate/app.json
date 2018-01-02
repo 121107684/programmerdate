@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fde101",
+    "navigationBarTitleText": "程序员老黄历",
+    "navigationBarTextStyle": "black"
+  }
+}
