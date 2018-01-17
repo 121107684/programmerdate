@@ -76,17 +76,18 @@ App({
 
   },
   globalData: {
-    userInfo: null,
-    urls: 'http://127.0.0.1:8088'
-  }, 
+    userInfo: null, 
+    urls: 'https://www.xunfengwx.com'
+    //urls: 'http://127.0.0.1:3000' 
+  },   
   getUserOpenId: function (callback) {
-    var self = this
-
+    var self = this 
+ 
     if (self.globalData.openid) {
       callback(null, self.globalData.openid)
     } else {
-       
-    } 
+    
+    }  
   }, 
   globalgetuser: function (passdata) {
     var self = this
